@@ -37,14 +37,15 @@ const App = () => {
       </Row>
 
       <Row>
-        <Button text="0" onPress={() => ''} />
         <Button text="." onPress={() => ''} />
-        <Button text="⌫" onPress={() => ''} />
+        <Button text="0" onPress={() => ''} />
+        <Button text="=" onPress={() => ''} />
         <Button text="+" onPress={() => ''} theme="secondary" />
       </Row>
 
       <Row>
-        <Button text="=" onPress={() => ''} theme="accent" />
+        <Button text="C" onPress={() => ''} theme="accent" size="large" />
+        <Button text="Del" onPress={() => ''} theme="accent" size="large" />
       </Row>
     </SafeAreaView>
   );

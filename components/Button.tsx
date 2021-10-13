@@ -2,7 +2,7 @@ import React from 'react';
 import { Dimensions, GestureResponderEvent, Pressable, StyleSheet, Text } from 'react-native';
 
 const screen = Dimensions.get('window');
-const btnWidth = screen.width / 4;  // 4 buttons per row
+const btnWidth = screen.width / 4;
 
 const styles = StyleSheet.create({
   text: {
@@ -18,10 +18,10 @@ const styles = StyleSheet.create({
     height: Math.floor(btnWidth - 10)
   },
   btnLarge: {
-    width: (btnWidth / 2) - 10,
+    width: (screen.width / 2) - 10,
     flex: 0,
-    alignItems: 'flex-start',
-    paddingLeft: 40
+    alignItems: 'center',
+    marginHorizontal: 2
   },
   textSecondary: { color: '#61dafb' },
   textAccent: { color: '#fff' },
