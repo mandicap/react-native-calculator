@@ -15,7 +15,8 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    height: Math.floor(btnWidth - 10)
+    height: Math.floor(btnWidth - 10),
+    width: btnWidth
   },
   btnLarge: {
     width: (screen.width / 2) - 10,
